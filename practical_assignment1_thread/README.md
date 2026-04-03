@@ -1,4 +1,6 @@
 # Threads UI — React Web Page Recreation
+# Repository Link
+https://github.com/Dechenyangzom/02240338_WEB101_PA1.git
 
 > WEB101 Practical Assignment 1 
 

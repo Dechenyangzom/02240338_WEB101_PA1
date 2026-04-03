@@ -14,6 +14,11 @@ export function AuthProvider({ children }) {
     setLoading(false);
   }, []);
 
+  useEffect(() => {
+  localStorage.removeItem("isLoggedIn");
+  setLoading(false);
+  }, []);
+
   const login = () => {
     setIsLoggedIn(true);
     localStorage.setItem("isLoggedIn", "true");
